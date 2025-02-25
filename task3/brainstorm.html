@@ -1,0 +1,64 @@
+<html>
+<head><title>Web Design Courses</title></head>
+   <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("header.html")  
+                .then(response => response.text()) 
+                .then(data => {
+                    document.getElementById("navbar-container").innerHTML = data;
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+   <div id="navbar-container"></div>
+   <div style="background-color:#101d42;">
+<body style="background-color:#101d42;padding:10px">
+   <div style="background-image:url(images/grid-left.svg)">
+<div style="padding-left:150px">
+<div style="background-color:#101d42;padding:1px;display:flex;gap:60px;width:1000px;">
+<div style="color:white;width:500px;">
+<h1>Web Design Courses</h1>
+<div style="padding:3px;background-color:yellow ;width:60px"></div>
+<p>Web design refers to the design, creation, and maintenance of websites. The terms web design and web development are often used interchangeably, however, web design typically refers to the front-end (client side) of a website, which includes its appearance, layout, and content. Web design involves a range of tasks, including graphic design, user interface (UI) design, user experience (UX) design, and search engine optimization. Successful Web Designers typically have a strong understanding of HTML, CSS, and JAVA, as well as UX design and UI design principles.</p></div>
+
+
+<div >
+   
+    <div style="padding:150px ;position:relative;top:100px;right:-200px;background-color:yellow ; "></div>
+     <img src="images/w1.png" style="border-radius:10px ;top:230px;position:absolute;" >
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>
+
+<style>
+h1{
+font-family:'arial',sans-serif;
+
+font-size:50px;
+text-align:left;
+padding:10px
+
+}
+p{
+font-family:'arial',sans-serif;
+text-align:left;
+padding-bottom:150px
+margin:auto;
+line-height: 1.6;
+}
+
+
+
+
+
+
+</style>
